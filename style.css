@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkslategrey;
+    
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxs{
+    width: 100%;
+    display: flex;
+}
+.boxs > div{
+    height: 200px;
+    width: 100px;
+    flex: 1;
+}
+header h1 {
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+    font-size: 40px;
+  }
+
+.kick{
+    background-color: blue;
+}
+.clap{
+    background-color: blueviolet;
+}
+.hi-hat{
+    background-color: green;
+}
+.rims{
+    background-color:darkgoldenrod;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
