@@ -17,12 +17,13 @@ window.addEventListener('load', () =>{
             createBubble(index);
         });
         document.addEventListener('keydown',(event) =>{
-            const index = event.key; 
+            const index = +event.key; 
             if(index>0 && index<7 ){
                 ses[index-1].currentTime = 0;
                 ses[index-1].play(); 
+                createBubble(index-1);
             }
-            createBubble(index-1);
+            
             
         });
     });
